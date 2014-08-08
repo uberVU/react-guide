@@ -52,6 +52,15 @@ Can change in child Components? | Yes | No
 
 \* Note that both _props_ and _state_ initial values received from parents override default values defined inside a Component.
 
+### Should this Component have _state_? 
+
+_state_ is optional. Since _state_ increases complexity and reduces predictability, a Component without _state_ is preferable. Even though you clearly can't do without state in an interactive app, you should have as fewer _stateful_ Components as possible.
+
+#### Component types
+
+* **Stateless Component** — There's not much going on besides the `render()` function and all their logic revolves around the _props_ they receive. This makes them very easy to follow (and test for that matter). We sometimes call these _dumb-as-f*ck Components_ (which [tuns out](http://www.urbandictionary.com/define.php?term=dumb%20as%20fuck) to be the only way to misuse the F-word in the English language).
+* **Stateful Component** — We also call these _state managers_. They are in charge of client-server communication (XHR, web sockets, etc.), processing data and responding to user events. These sort of logistics should be encapsulated as much as possible in a moderate number of _Stateful Components_, while all visualization and formatting logic should move downstream into as many _Stateless Components_ as possible.
+
 ### Sources
 
 - [Question about 'props' and 'state' - Google Groups](https://groups.google.com/forum/#!topic/reactjs/hAldztPzQgI)
