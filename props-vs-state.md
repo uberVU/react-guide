@@ -25,6 +25,8 @@ Before separating _props_ and _state_, let's also identify where they overlap.
 
 ### Does this go inside _props_ or _state_?
 
+**tl;dr:** If a Component needs to alter one of its attributes at some point in time, that attribute should be part of its _state_, otherwise it should just be a _prop_ for that Component.
+
 #### _props_
 
 _props_ (short for _properties_) are a Component's **configuration,** its _options_ if you may. They are received from above and **immutable** as far as the Component receiving them is concerned.
