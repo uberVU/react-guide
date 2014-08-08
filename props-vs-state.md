@@ -13,7 +13,7 @@ The main responsibility of a Component is to translate raw data into rich HTML. 
 
 You could say _props_ + _state_ is the input data for the `render()` function of a Component, so we need to zoom in and see what each data type represents and where does it come from.
 
-Because we also use [Cosmos](https://github.com/skidding/cosmos), where _props_ can contain an initial _state_, getting this straight is crucial.
+Because we also use [Cosmos](https://github.com/skidding/cosmos) where _props_ can contain an initial _state_, getting this straight is crucial.
 
 ### Common ground
 
