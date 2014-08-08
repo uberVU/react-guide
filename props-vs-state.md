@@ -61,6 +61,7 @@ _state_ is optional. Since _state_ increases complexity and reduces predictabili
 * **Stateless Component** — There's not much going on besides the `render()` function and all their logic revolves around the _props_ they receive. This makes them very easy to follow (and test for that matter). We sometimes call these _dumb-as-f*ck Components_ (which [tuns out](http://www.urbandictionary.com/define.php?term=dumb%20as%20fuck) to be the only way to misuse the F-word in the English language).
 * **Stateful Component** — We also call these _state managers_. They are in charge of client-server communication (XHR, web sockets, etc.), processing data and responding to user events. These sort of logistics should be encapsulated as much as possible in a moderate number of _Stateful Components_, while all visualization and formatting logic should move downstream into as many _Stateless Components_ as possible.
 
-### Sources
+### Sources of truth
 
 - [Question about 'props' and 'state' - Google Groups](https://groups.google.com/forum/#!topic/reactjs/hAldztPzQgI)
+- [Thinking in React: Identify where your state should live](http://facebook.github.io/react/docs/thinking-in-react.html#step-4-identify-where-your-state-should-live)
