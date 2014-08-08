@@ -43,7 +43,7 @@ A Component manages its own _state_ internally, but—besides setting an initial
 
 - | _props_ | _state_ | 
 --- | --- | --- 
-Can set initial value from parent Component? | Yes | Yes
+Can get initial value from parent Component? | Yes | Yes
 Can be changed by parent Component? | Yes | No
 Can set default values inside Component?* | Yes | Yes
 Can change inside Component? | No | Yes
