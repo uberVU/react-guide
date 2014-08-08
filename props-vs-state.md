@@ -54,7 +54,7 @@ Can change in child Components? | Yes | No
 
 ### Should this Component have _state_? 
 
-_state_ is optional. Since _state_ increases complexity and reduces predictability, a Component without _state_ is preferable. Even though you clearly can't do without state in an interactive app, you should have as fewer _stateful_ Components as possible.
+_state_ is optional. Since _state_ increases complexity and reduces predictability, a Component without _state_ is preferable. Even though you clearly can't do without state in an interactive app, you should avoid having too many _Stateful Components._
 
 #### Component types
 
