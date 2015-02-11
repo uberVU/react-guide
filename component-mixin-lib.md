@@ -24,6 +24,8 @@ Our source code is divided into three layers: `lib`, `mixins`, and
 |   |   +-- mixins
 ```
 
+## JS(X)
+
 ### Component
 
 A component is a 
@@ -54,7 +56,7 @@ predictable and testing them is a joy.
 
 Complexity: _Taking candy from a baby_
 
-## So where does my code go?
+### So where does my code go?
 
 1. Strive to put as much as possible into libs.
 2. If something requires the component context, make it a mixin.
@@ -62,7 +64,7 @@ Complexity: _Taking candy from a baby_
 
 This avoids duplication and keeps things as simple as possible.
 
-## What about CSS?
+## CSS/LESS
 
 This structure was designed around React components and JavaScript in general, 
 but it can easily be adapted to styles as well. We gain more from having 
@@ -75,8 +77,10 @@ same name, only with hyphens instead of camel case.
 
 Since we use LESS, the mixin/lib part is confusing, because they're both
 technically _mixins._ But even though they are the same type of entity, they 
-are split by responsibility. Libs contain design elements shared between 
-components, while mixins contain specific functionality 
-(usually a function with arguments), like a type of shadow or a formula for 
-border radius. Think of libs as something strictly coupled to one project, 
-while mixins as something useful to open source.
+are split by responsibility.
+
+### So where does my style go?
+
+1. If you're styling a reusable element from the UI design, make a lib out of it.
+2. If the reusable style contains generic functionality–like a formula for border radius, or something you would open source–put it in a mixin. These are usually functions with parameters.
+3. If the style belongs to one component only, put it in that compoenent's corresponding style file.
