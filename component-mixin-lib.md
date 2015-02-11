@@ -64,9 +64,10 @@ This avoids duplication and keeps things as simple as possible.
 
 ## What about CSS?
 
-This structure was designed to organize code logic best, but it can easily be
-adapted to styles as well. We gain more from having consistency between both
-logic and style than from optimizing the structure of the styles separately.
+This structure was designed around React components and JavaScript in general, 
+but it can easily be adapted to styles as well. We gain more from having 
+consistency between both logic and style than from optimizing the structure of 
+the styles separately.
 
 The component domain is easy. Each component class has a corresponding style
 file with the same name. The entire style is owned under a CSS class with the
