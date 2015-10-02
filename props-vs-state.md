@@ -1,7 +1,7 @@
 _props_ vs _state_
 ======
 
-Even since we started using [React](http://facebook.github.io/react/) to rebuild our UI at [uberVU](https://www.ubervu.com/) (now [Hootsuite](https://hootsuite.com/)) the #1 developer question has probably been: 
+Ever since we started using [React](http://facebook.github.io/react/) to rebuild our UI at [uberVU](https://www.ubervu.com/) (now [Hootsuite](https://hootsuite.com/)) the #1 developer question has probably been: 
 
 > What's the exact difference between _props_ and _state_?
 
