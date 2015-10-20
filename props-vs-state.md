@@ -35,7 +35,7 @@ A Component cannot change its _props,_ but it is responsible for putting togethe
 
 #### _state_
 
-The _state_ starts with a default value when a Componenent mounts and then **suffers from mutations in time (mostly generated from user events).** It's a serializable* representation of one point in time—a snapshot.
+The _state_ starts with a default value when a Component mounts and then **suffers from mutations in time (mostly generated from user events).** It's a serializable* representation of one point in time—a snapshot.
 
 A Component manages its own _state_ internally, but—besides setting an initial state—has no business fiddling with the _state_ of its children. You could say the state is **private.**
 
