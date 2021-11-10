@@ -50,7 +50,6 @@ Can be changed by parent Component? | Yes | No
 Can set default values inside Component?* | Yes | Yes
 Can change inside Component? | No | Yes
 Can set initial value for child Components? | Yes | Yes
-Can change in child Components? | Yes | No
 
 \* Note that both _props_ and _state_ initial values received from parents override default values defined inside a Component.
 
