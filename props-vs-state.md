@@ -11,7 +11,7 @@ It's fairly easy to understand how they workâ€”especially when seen in contextâ€
 
 The main responsibility of a Component is to translate raw data into rich HTML. With that in mind, the _props_ and the _state_ together constitute the _raw data_ that the HTML output derives from.
 
-You could say _props_ + _state_ is the input data for the `render()` function of a Component, so we need to zoom in and see what each data type represents and where does it come from.
+You could say _props_ + _state_ is the input data for the `render()` function of a Component, so we need to zoom in and see what each data type represents and where it comes from.
 
 Because we also use [Cosmos](https://github.com/skidding/cosmos) where _props_ can contain an initial _state_, getting this straight is crucial.
 
