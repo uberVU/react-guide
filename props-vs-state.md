@@ -4,6 +4,9 @@ _props_ vs _state_
 Ever since we started using [React](http://facebook.github.io/react/) to rebuild our UI at [uberVU](https://www.ubervu.com/) (now [Hootsuite](https://hootsuite.com/)) the #1 developer question has probably been: 
 
 > What's the exact difference between _props_ and _state_?
+>
+> ![state](https://github.com/uberVU/react-guide/assets/63030834/e7a254dd-3be1-4550-a493-c27365b4163f)
+
 
 It's fairly easy to understand how they work—especially when seen in context—but it's also a bit difficult to grasp them conceptually. It's confusing at first because they both have abstract terms and their values look the same, but they also have very different _roles._ 
 
